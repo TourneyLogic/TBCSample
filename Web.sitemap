@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode>
+    <siteMapNode title="Getting Started" >
+      <siteMapNode url="~/default.aspx" title="Introduction" />
+    </siteMapNode>
+    <siteMapNode title="Simple" >
+      <siteMapNode url="~/Simple/DynamicLayout.aspx" title="Dynamic Layout" />
+    </siteMapNode>
+    <siteMapNode title="Popular Tourneys">
+      <siteMapNode url="~/PopularTourneys/NCAA.aspx" title="NCAA March Madness Bracket"/>
+      <siteMapNode url="~/PopularTourneys/NBA.aspx" title="NBA Playoffs Bracket"  />
+      <siteMapNode url="~/PopularTourneys/MLB.aspx" title="MLB Playoffs Bracket"  />
+      <siteMapNode url="~/PopularTourneys/NFL.aspx" title="NFL Playoffs Bracket" />
+    </siteMapNode>
+    <siteMapNode title="Advanced Topics" >
+      <siteMapNode url="~/Advanced/DataBindCompetitors.aspx" title="Data Binding Competitors"  />
+      <siteMapNode url="~/Advanced/LoadingSavingResults.aspx" title="Loading and Saving Results"  />
+      <siteMapNode url="~/Advanced/DynamicBracketConfig.aspx" title="Dynamic Bracket Configuration"></siteMapNode>
+      <siteMapNode url="~/Advanced/ChangingRoundTitles.aspx" title="Change Round Titles" />
+      <siteMapNode url="~/Advanced/ValidatingResults.aspx" title="Validating Results"></siteMapNode>
+    </siteMapNode>
+    
+  </siteMapNode>
+</siteMap>

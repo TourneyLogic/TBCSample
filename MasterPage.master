@@ -1,0 +1,63 @@
+<%@ Master Language="C#" AutoEventWireup="true" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>TOURNEY LOGIC: QuickStart Tutorials</title>
+</head>
+<body style="font-family:Verdana,Arial; font-size:small; margin-top: 0;">
+    <form id="form1" runat="server">
+    <div>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+                <td valign="top" colspan="2" id="Header">
+                        <table width="100%">
+                            <tr>
+                                <td style="width: 256px; height: 120px;">
+                                    <a href="http://www.tourneylogic.com">
+                                        <img src="~/images/TL_logo1.jpg" alt="Tourney Logic - Get In The Game" style="vertical-align: middle;
+                                            border: 0" runat="server" /></a></td>
+                                <td style="height: 120px" valign="middle">
+                                    <span style="font-size: 16pt">Tourney Bracket Control 2.1</span><br />
+                                    <span style="font-size: 11pt">QuickStart Tutorial</span></td>
+                            </tr>
+                        </table>
+                    <hr />
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" id="Navigation">
+                    <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" StaticDisplayLevels="3" Width="260px">
+                        <StaticSelectedStyle Font-Bold="True" Font-Italic="True" VerticalPadding="2px" />
+                        <LevelMenuItemStyles>
+                            <asp:MenuItemStyle Font-Bold="True" Font-Underline="False" />
+                            <asp:MenuItemStyle Font-Bold="True" Font-Underline="False" VerticalPadding="5px" />
+                        </LevelMenuItemStyles>
+                    </asp:Menu>
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+                </td>
+                <td valign="top" id="Body" style="width:100%;">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td id="Footer" colspan="2">
+                    <br />
+                    <hr />
+                    <table width="100%">
+                        <tr>
+                            <td>
+                                <a href="mailto:sales@tourneylogic.com">sales@tourneylogic.com</a></td>
+                            <td align="right">
+                                <a href="http://www.tourneylogic.com">Tourney Logic</a> - Copyright <%=DateTime.Now.Year %></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
